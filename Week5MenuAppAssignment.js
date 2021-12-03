@@ -159,7 +159,7 @@ class Menu{
     deleteStudent(){
         let index = prompt('Enter the index of the student you wish to remove: ');
         if(index > -1 && this.selectedTeacher.students.length){
-            this.selectedTeacher.players.splice(index,1);
+            this.selectedTeacher.students.splice(index,1);
         }
     }
 
